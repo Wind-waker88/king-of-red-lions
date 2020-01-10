@@ -39,7 +39,7 @@ class SMWinservice(win32serviceutil.ServiceFramework):
 
     def SvcDoRun(self):
         '''
-        Called when the service is asked to start
+        Called  when the service is asked to start
         '''
         self.start()
         servicemanager.LogMsg(servicemanager.EVENTLOG_INFORMATION_TYPE,

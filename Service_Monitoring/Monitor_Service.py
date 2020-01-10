@@ -3,7 +3,7 @@ import psutil
 # Python Script to Check if...
 # Windows Service is found|installed,stopped|running without pywin32
 # Found at https://stackoverflow.com/questions/33843024
-# Update to work on python 3.x
+# Update to work on python 3.xx
 #
 
 
