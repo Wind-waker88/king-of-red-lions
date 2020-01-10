@@ -17,7 +17,7 @@ def getService(name):
         print(str(ex))
     return service
 
-service = getService('LanmanServer')
+service = getService('AppMgmt')
 print(service)
 
 if service:
